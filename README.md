@@ -4,7 +4,7 @@ Unity 95 Takımı
 
 # Oyun İle İlgili Bilgiler
 
-## Takım Elemanları
+## Takım Üyeleri
 - İrem Değerli: Scrum Master / Product Owner / Developer
 - Keziban Topal: Developer
 - Kübra Altun: Product Owner / Developer

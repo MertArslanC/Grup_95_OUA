@@ -46,16 +46,19 @@ Sisyphus's Burden oyununda, oyuncular Sisyphus'un yeraltı dünyasındaki zorlu 
 - **Spint Notları:**
   User Story'ler product backlog'ların içine yazılmıştır.
 
-- **Sprint içinde tamamlanması tahmin edilen puan:** 82 Puan
+- **Sprint içinde tamamlanması tahmin edilen puan:** 80 Puan
 
 - **Puan tamamlama mantığı:**
-  Toplamda proje boyunca tamamlanması gereken backlog puanı 370'dir. 3 sprint'e bölündüğünde ilk sprint için bitirilmesi istenilen puan 82 olarak belirlendi.
+  Toplamda proje boyunca tamamlanması gereken backlog puanı 280'dir. 3 sprint'e bölündüğünde ilk sprint için bitirilmesi istenilen puan en az 80 olarak belirlendi.
 
 - **Daily Scrum**: Daily Scrum toplantılarının Whatsapp ve Discord üzerinden yapılmasına karar verilmiştir.
 [Sprint 1 Daily Scrum Ekran Görüntüleri](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/DailyScrumToplant%C4%B1lar%C4%B1Sprint1%20.pdf)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1]() 
+![Backlog 1](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/sprintBoard1.png)
+![Backlog 2](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/sprintBoard2.png) 
+![Backlog 3](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/sprintBoard3.png) 
+
 
 **Sprint Review**:
 - Oyun fikri ve genel konsepti belirlendi.

@@ -52,7 +52,7 @@ Sisyphus's Burden oyununda, oyuncular Sisyphus'un yeraltı dünyasındaki zorlu 
   Toplamda proje boyunca tamamlanması gereken backlog puanı 370'dir. 3 sprint'e bölündüğünde ilk sprint için bitirilmesi istenilen puan 82 olarak belirlendi.
 
 - **Daily Scrum**: Daily Scrum toplantılarının Whatsapp ve Discord üzerinden yapılmasına karar verilmiştir.
-[Sprint 1 Daily Scrum Ekran Görüntüleri]()
+[Sprint 1 Daily Scrum Ekran Görüntüleri](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/DailyScrumToplant%C4%B1lar%C4%B1Sprint1%20.pdf)
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1]() 

@@ -5,11 +5,11 @@ Unity 95 Takımı
 # Oyun İle İlgili Bilgiler
 
 ## Takım Üyeleri
-- İrem Değerli: Scrum Master / Product Owner / Developer
-- Keziban Topal: Developer
-- Kübra Altun: Product Owner / Developer
-- Mehmet Burak Meydancı: Developer
-- Mert Arslan: Developer
+- **İrem Değerli**:  Scrum Master / Product Owner / Developer
+- **Keziban Topal**: Developer
+- **Kübra Altun**: Product Owner / Developer
+- **Mehmet Burak Meydancı**: Developer
+- **Mert Arslan**: Developer
 
 ## Oyun İsmi
 

@@ -49,7 +49,9 @@ Sisyphus's Burden oyununda, oyuncular Sisyphus'un yeraltı dünyasındaki zorlu 
 - **Ürün Durumu**:
 ![Urun 1](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/oyunSs.jpg)
 ![Urun 2](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/oyunSs2.jpg)
- 
+
+ ![video](https://github.com/MertArslanC/Grup_95_OUA/assets/104104302/c3a4847b-c58f-4f19-bfef-fe9f897b62c2)
+
 
 **Sprint Review**:
 - Oyun fikri ve genel konsepti belirlendi.

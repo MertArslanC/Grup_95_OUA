@@ -39,16 +39,19 @@ Sisyphus's Burden oyununda, oyuncular Sisyphus'un yeraltı dünyasındaki zorlu 
   Toplamda proje boyunca tamamlanması gereken backlog puanı 280'dir. 3 sprint'e bölündüğünde ilk sprint için bitirilmesi istenilen puan en az 80 olarak belirlendi.
 - **Daily Scrum**: Daily Scrum toplantılarının Whatsapp ve Discord üzerinden yapılmasına karar verilmiştir.
 [Sprint 1 Daily Scrum Ekran Görüntüleri](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/DailyScrumToplant%C4%B1lar%C4%B1Sprint1%20.pdf)
+
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/sprintBoard1.png)
 ![Backlog 2](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/sprintBoard2.png) 
-![Backlog 3](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/sprintBoard3.png) 
+![Backlog 3](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/sprintBoard3.png)
+
 **Sprint Review**:
 - Oyun fikri ve genel konsepti belirlendi.
 - Unity projesi yapılandırıldı.
 - Takım içinde görev dağılımı yapıldı. Kodlama ve tasarım olarak iki gruba ayrıldı.
 Kodlama için Kübra, İrem ve Mehmet görevlendirildi. Tasarım için Mert ve Keziban görevlendirildi. Ancak her üye ihtiyaç halinde diğer gruba dahil olacaktır.
 - Sprint Review katılımcıları: Mert Aslan, Mehmet Burak Meydancı, Kübra Altun, Keziban Topal, İrem Değerli.
+  
 **Sprint Retrospective:**
 - Sprint 1 için hedeflenen puana ulaşılamamıştır. Yapılamayan görevler gelecek sprintlere eklenecektir.
 - İkinci sprinte farklı haritaların tamamlanması, karakter hareket ve mekaniğinin oluşturulması eklendi.

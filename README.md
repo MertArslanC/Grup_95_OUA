@@ -44,6 +44,12 @@ Sisyphus's Burden oyununda, oyuncular Sisyphus'un yeraltı dünyasındaki zorlu 
 ![Backlog 1](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/sprintBoard1.png)
 ![Backlog 2](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/sprintBoard2.png) 
 ![Backlog 3](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/sprintBoard3.png)
+![Backlog 4](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/sprintBoard4.png)
+
+- **Ürün Durumu**:
+![Urun 1](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/oyunSs.jpg)
+![Urun 2](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/oyunSs2.jpg)
+ 
 
 **Sprint Review**:
 - Oyun fikri ve genel konsepti belirlendi.

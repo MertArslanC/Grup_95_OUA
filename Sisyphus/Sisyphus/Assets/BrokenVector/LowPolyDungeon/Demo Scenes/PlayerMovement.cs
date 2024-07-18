@@ -9,9 +9,13 @@ public class PlayerMovement : MonoBehaviour
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
     public float sprintSpeed = 5f;
+    
 
     float speedBoost = 1f;
     Vector3 velocity;
+
+    
+
     void Start()
     {
 
@@ -19,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+       
         if (controller.isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;

@@ -36,7 +36,7 @@ Sisyphus's Burden oyununda, oyuncular Sisyphus'un yeraltı dünyasındaki zorlu 
   User Story'ler product backlog'ların içine yazılmıştır.
 - **Sprint içinde tamamlanması tahmin edilen puan:** 80 Puan
 - **Puan tamamlama mantığı:**
-  Toplamda proje boyunca tamamlanması gereken backlog puanı 280'dir. 3 sprint'e bölündüğünde ilk sprint için bitirilmesi istenilen puan en az 80 olarak belirlendi.
+  Toplamda proje boyunca tamamlanması gereken backlog puanı 235'dir. 3 sprint'e bölündüğünde ilk sprint için bitirilmesi istenilen puan en az 80 olarak belirlendi.
 - **Daily Scrum**: Daily Scrum toplantılarının Whatsapp ve Discord üzerinden yapılmasına karar verilmiştir.
 [Sprint 1 Daily Scrum Ekran Görüntüleri](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint1/DailyScrumToplant%C4%B1lar%C4%B1Sprint1%20.pdf)
 
@@ -61,12 +61,12 @@ Kodlama için Kübra, İrem ve Mehmet görevlendirildi. Tasarım için Mert ve K
 - Sprint Review katılımcıları: Mert Aslan, Mehmet Burak Meydancı, Kübra Altun, Keziban Topal, İrem Değerli.
   
 **Sprint Retrospective:**
-- Sprint 1 için hedeflenen puana ulaşılamamıştır. Yapılamayan görevler gelecek sprintlere eklenecektir.
+- Sprint 1 için hedeflenen puana ulaşılamamıştır. Tamamlanmayan 40 puan vardır. Yapılamayan görevler gelecek sprintlere eklenecektir.
 - İkinci sprinte farklı haritaların tamamlanması, karakter hareket ve mekaniğinin oluşturulması eklendi.
 - Gelecek sprintlerde daha detaylı planlama ve zamanlama yapılmasına karar verildi.
  ***
 # Sprint 2
-- **Sprint içinde tamamlanması tahmin edilen puan:** 85 Puan
+- **Sprint içinde tamamlanması tahmin edilen puan:** 80 Puan
 - **Daily Scrum**: Daily Scrum toplantılarının Whatsapp ve Discord üzerinden yapılmaktadır. Whatsapp üzerinden ürün hakkında bilgilendirmeler ve toplantı planları yapılmıştır. Discord üzerinden oyunla ilgili kararlar alınmıştır ve oyunun genel durumuyla ilgili toplantılar planlanmıştır.
 [Sprint 2 Daily Scrum Ekran Görüntüleri](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint2/DailyScrumToplant%C4%B1lar%C4%B1Sprint2.pdf)
 
@@ -95,7 +95,7 @@ Kodlama için Kübra, İrem ve Mehmet görevlendirildi. Tasarım için Mert ve K
 - Sprint Review katılımcıları: Mert Aslan, Mehmet Burak Meydancı, Kübra Altun, Keziban Topal, İrem Değerli.
   
 **Sprint Retrospective:**
-- Sprint 2 için hedeflenen puana ulaşılamamıştır. Yapılamayan görevler gelecek sprintlere eklenecektir.
+- Sprint 2 için hedeflenen puana ulaşılamamıştır. Tamamlanmayan 25 puan vardır. Yapılamayan görevler gelecek sprintlere eklenecektir.
 - İkinci sprinte farklı haritaların tamamlanması, düşman saldırısı, UI tasarımları ve can mekaniği eklendi
 - Gelecek sprintlerde daha detaylı planlama ve zamanlama yapılmasına karar verildi.
  ***

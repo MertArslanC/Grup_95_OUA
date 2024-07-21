@@ -77,9 +77,9 @@ Kodlama için Kübra, İrem ve Mehmet görevlendirildi. Tasarım için Mert ve K
 ![Backlog 4](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint2/Sprintboard4.png) 
 - **Ürün Durumu**:
 ![Urun 1](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint2/oyunSs1.png)
-![Urun 2](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint2/oyunSs2.jpg)
-![Urun 3](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint2/oyunSs3.jpg)
-![Urun 4](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint2/oyunSs4.jpg)
+![Urun 2](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint2/oyunSs2.png)
+![Urun 3](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint2/oyunSs3.png)
+![Urun 4](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint2/oyunSs4.png)
  
 [Karakter animasyonu ](https://drive.google.com/file/d/1Brmg9-TUPAb5Wx0wIChgf0Pqh6sahKo_/view)
 

@@ -13,6 +13,7 @@ public class Movement : MonoBehaviour
     public InputAction runAction;
     public InputAction rollAction;
     public InputAction backwalkAction;
+    public InputAction attackAction;
 
     private void Awake()
     {
@@ -22,6 +23,7 @@ public class Movement : MonoBehaviour
         runAction = inputActionAsset["Run"];
         rollAction = inputActionAsset["Roll"];
         backwalkAction = inputActionAsset["Backwalk"];
+        attackAction = inputActionAsset["Attack"];
     }
     public void Moving(InputAction.CallbackContext value)
     {

@@ -644,13 +644,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 978499712}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae39baac50de0e64e9f2501fc8eb306e, type: 3}
+  m_Script: {fileID: 11500000, guid: 633fe2ee861d7f7478457f8fde4c2f3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mesafe: 0
   player: {fileID: 1439306976}
   patrolDistance: 5
-  speed: 2
+  speed: 1
 --- !u!850595691 &1089055588
 LightingSettings:
   m_ObjectHideFlags: 0

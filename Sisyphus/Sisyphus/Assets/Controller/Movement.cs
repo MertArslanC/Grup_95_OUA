@@ -29,10 +29,9 @@ public class Movement : MonoBehaviour
     {
         if (value.performed)
         {
-            //Debug.Log("performed");
+           
             moveVal= value.ReadValue<Vector2>();
-            //Debug.Log(moveVal.x+ " " + moveVal.y);
-            //capsule.AddForce(new Vector3(moveVal.x*moveSpeed,0f, moveVal.y*moveSpeed));
+            
 
         }
         if (value.canceled)

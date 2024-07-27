@@ -39,11 +39,11 @@ public class RuntimeMovement : MonoBehaviour
         _input= GetComponent<Movement>();
         _animator= GetComponent<Animator>();
         _input.jumpAction.performed += OnJump;
-        _input.runAction.performed += OnRun; // Run action'ýný dinlemeye baþlýyoruz
+        _input.runAction.performed += OnRun;
         _input.runAction.canceled += OnRunCanceled;
-        _input.rollAction.performed += OnRoll; // Rolling action dinleyicisi
+        _input.rollAction.performed += OnRoll; 
         _input.rollAction.canceled += OnRollCanceled;
-        _input.backwalkAction.performed += OnBackwalk; // Backwalk action dinleyicisi
+        _input.backwalkAction.performed += OnBackwalk;
         _input.backwalkAction.canceled += OnBackwalkCanceled;
         _input.attackAction.performed += OnAttack;
 
@@ -58,7 +58,7 @@ public class RuntimeMovement : MonoBehaviour
     {
         
         _input.jumpAction.performed -= OnJump;
-        _input.runAction.performed -= OnRun; // Run action'ýný dinlemeyi býrakýyoruz
+        _input.runAction.performed -= OnRun; 
         _input.runAction.canceled -= OnRunCanceled;
         _input.rollAction.performed -= OnRoll;
         _input.rollAction.canceled -= OnRollCanceled;
@@ -85,20 +85,19 @@ public class RuntimeMovement : MonoBehaviour
 
         if (isGrounded && yVelocity < 0)
         {
-            yVelocity = -9.8f; // Yerçekimi etkisini sýfýrlamak için küçük negatif bir deðer
+            yVelocity = -9.8f; 
         }
 
         if (!isGrounded)
         {
-            yVelocity -= gravity * Time.deltaTime; // Yerçekimi ekle
+            yVelocity -= gravity * Time.deltaTime;
         }
 
         transform.eulerAngles = new Vector3(0, (Input.mousePosition.x - startedMousePos)/mouseSensivity,0);
     }
     private void Move()
     {
-        //_controller.Move(Vector3.down * 9.8f * Time.deltaTime);
-        //_controller.Move(new Vector3((_input.moveVal.x*_input.moveSpeed)/fraction, yVelocity, (_input.moveVal.y*_input.moveSpeed)/fraction));
+        
         _animator.SetFloat("speed", Mathf.Abs(_controller.velocity.x)+ Mathf.Abs(_controller.velocity.z));
         float speedMultiplier = isRunning ? 2.0f : 1.0f;
 
@@ -106,19 +105,10 @@ public class RuntimeMovement : MonoBehaviour
         Vector3 char_Direction = (gameObject.transform.right * _input.moveVal.x * _input.moveSpeed * speedMultiplier / fraction) +
             (gameObject.transform.forward * (_input.moveVal.y * _input.moveSpeed * speedMultiplier) / fraction);
         Vector3 char_Gravity = gameObject.transform.up * yVelocity;
-        /*Vector3 movement = new Vector3(
-            _input.moveVal.x * _input.moveSpeed * speedMultiplier * directionMultiplier / fraction,
-            yVelocity,
-            (_input.moveVal.y * _input.moveSpeed * speedMultiplier) / fraction
-        );*/
-
-        // Eðer koþuyorsa hýzý iki katýna çýkar
-        //Vector3 speedMultiplier = new Vector3((_input.moveVal.x * _input.moveSpeed * speedMultiplier) / fraction, 0f, (_input.moveVal.y * _input.moveSpeed * speedMultiplier) / fraction);
         Vector3 movement = char_Direction + char_Gravity;
         _controller.Move(movement * Time.deltaTime);
-
-        float speedblend = movement.magnitude; // Hareket hýzýný hesaplýyoruz
-        _animator.SetFloat("speedblend", speedblend); // Animator'a hareket hýzýný bildiriyoruz
+        float speedblend = movement.magnitude;
+        _animator.SetFloat("speedblend", speedblend);
 
         Debug.Log(_controller.velocity.x + " " + _controller.velocity.z);
         _animator.SetBool("isRolling", isRolling);
@@ -128,20 +118,18 @@ public class RuntimeMovement : MonoBehaviour
     private void OnJump(InputAction.CallbackContext context)
     {
         _animator.SetTrigger("jump");
-        //_animator.SetBool("grounded", true);
-        _animator.SetFloat("speed", Mathf.Abs(_controller.velocity.x) + Mathf.Abs(_controller.velocity.z));
+             _animator.SetFloat("speed", Mathf.Abs(_controller.velocity.x) + Mathf.Abs(_controller.velocity.z));
 
         yVelocity = jumpPower;
     }
     private void OnRun(InputAction.CallbackContext context)
     {
-        // Koþma modunu aktif hale getiriyoruz
         isRunning = true;
     }
 
     private void OnRunCanceled(InputAction.CallbackContext context)
     {
-        // Koþma modunu iptal ediyoruz
+       
         isRunning = false;
     }
     private void OnRoll(InputAction.CallbackContext context)
@@ -164,7 +152,7 @@ public class RuntimeMovement : MonoBehaviour
     }
     private void OnAttack(InputAction.CallbackContext context)
     {
-        _animator.SetTrigger("attack"); // Attack animasyonunu tetikle
+        _animator.SetTrigger("attack");
 
     }
 
@@ -182,19 +170,5 @@ public class RuntimeMovement : MonoBehaviour
         stoneInHand.SetActive(true);
     }
 
-    /*  private void OnCollisionEnter(Collision collision)
-      {
-          if(collision.gameObject.layer == 6)
-          {
-              _animator.SetBool("grounded", true);
-          }
-      }
-
-      private void OnCollisionExit(Collision collision)
-      {
-          if (collision.gameObject.layer == 6)
-          {
-              _animator.SetBool("grounded", false);
-          }
-      }*/
+   
 }

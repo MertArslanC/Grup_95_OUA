@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject gameOver, heart1, heart2, heart3;
     public int health;
 
-    // Start is called before the first frame update
+    
     void Start()
     {
         health = 3;
@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
         gameOver.SetActive(false);
     }
 
-    // Update is called once per frame
+ 
     void Update()
     {
         switch (health)

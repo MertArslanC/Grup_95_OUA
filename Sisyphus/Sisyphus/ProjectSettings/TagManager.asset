@@ -6,6 +6,11 @@ TagManager:
   tags:
   - coin
   - enemy
+  - prize
+  - prize2
+  - prize3
+  - void
+  - checkpoint
   layers:
   - Default
   - TransparentFX

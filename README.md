@@ -98,4 +98,4 @@ Kodlama için Kübra, İrem ve Mehmet görevlendirildi. Tasarım için Mert ve K
 - Sprint 2 için hedeflenen puana ulaşılamamıştır. Tamamlanmayan 25 puan vardır. Yapılamayan görevler gelecek sprintlere eklenecektir.
 - İkinci sprinte farklı haritaların tamamlanması, düşman saldırısı, UI tasarımları ve can mekaniği eklendi
 - Gelecek sprintlerde daha detaylı planlama ve zamanlama yapılmasına karar verildi.
- ***
+ ****

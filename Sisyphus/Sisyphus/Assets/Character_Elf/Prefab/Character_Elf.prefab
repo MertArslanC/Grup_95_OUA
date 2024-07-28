@@ -549,7 +549,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prize1: {fileID: 0}
   prize2: {fileID: 0}
-  prize3: {fileID: 0}
   mark1: {fileID: 0}
   mark2: {fileID: 0}
   countdown: {fileID: 0}

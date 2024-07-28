@@ -59,7 +59,7 @@ public class Enemy : MonoBehaviour
 
     void Patrol()
     {
-        if (Vector3.Distance(transform.position, targetPoint) < 15f)
+        if (Vector3.Distance(transform.position, targetPoint) < 0.5f)
         {
             SetNewTargetPoint();
         }

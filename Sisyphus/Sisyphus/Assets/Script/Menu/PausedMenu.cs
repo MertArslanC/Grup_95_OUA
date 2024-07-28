@@ -8,17 +8,21 @@ public class PausedMenu : MonoBehaviour
     public static bool oyunudurdumu = false;
     public GameObject canvasPause;
 
-    public void oyunuDurdur()
+    public void Update()
     {
-        if (oyunudurdumu == false)
+        if (Input.GetKeyUp(KeyCode.Escape))
         {
-            Pause();
-        }
-        else
-        {
-            Resume();
+            if (oyunudurdumu == false)
+            {
+                Pause();
+            }
+            else
+            {
+                Resume();
+            }
         }
     }
+
     public void Resume()
     {
         canvasPause.SetActive(false);
@@ -35,13 +39,14 @@ public class PausedMenu : MonoBehaviour
     }
     public void Restart()
     {
-        Time.timeScale = 1; 
+        Time.timeScale = 1f; 
         oyunudurdumu = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void Menu()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }
 }

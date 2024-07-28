@@ -874,7 +874,7 @@ GameObject:
   - component: {fileID: 4110209675789215712}
   - component: {fileID: 3497836930073135503}
   m_Layer: 0
-  m_Name: Giant01_Flat - Golem_Flat
+  m_Name: enemy_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

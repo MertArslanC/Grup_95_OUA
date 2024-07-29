@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
         heart2.gameObject.SetActive(true);
         heart3.gameObject.SetActive(true);
         gameOver.SetActive(false);
+        Time.timeScale = 1;
     }
 
  
@@ -43,6 +44,8 @@ public class GameManager : MonoBehaviour
                 heart2.gameObject.SetActive(false);
                 heart3.gameObject.SetActive(false);
                 gameOver.gameObject.SetActive(true);
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
                 Time.timeScale = 0;
                 break;
         }

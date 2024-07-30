@@ -13,7 +13,8 @@ public class FallenFromPlatform : MonoBehaviour
     private GameObject previousCheckPoint;
 
     public Color checkTakenColor, checkNotTakenColor;
-    
+
+    bool canTakenDamage=true;
     private void Start()
     {
         characterController = gameObject.GetComponent<CharacterController>();
@@ -24,12 +25,18 @@ public class FallenFromPlatform : MonoBehaviour
     {
         if(gameObject.transform.position.y <= voidYPos)
         {
-            characterController.enabled = false;
-            gameObject.transform.position = current_CheckPoint;
-            characterController.enabled = true;
-            gameManager.health -= 1;
+            ReturnCheckPoint();
         }
     }
+
+    private void ReturnCheckPoint()
+    {
+        characterController.enabled = false;
+        gameObject.transform.position = current_CheckPoint;
+        characterController.enabled = true;
+        gameManager.health -= 1;
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("checkpoint"))
@@ -38,16 +45,31 @@ public class FallenFromPlatform : MonoBehaviour
 
             if(previousCheckPoint!=null)
             {
-                previousCheckPoint.transform.GetChild(0).transform.localPosition = new Vector3(0f, -1f, 0f);
+                previousCheckPoint.transform.GetChild(0).transform.localPosition = new Vector3(1.65f, -0.51f, 0f);
                 previousCheckPoint.transform.GetComponentInChildren<SpriteRenderer>().color = checkNotTakenColor;
             }
-            other.transform.GetChild(0).transform.localPosition = new Vector3(0f, 0f, 0f);
-
+            other.transform.GetChild(0).transform.localPosition = new Vector3(1.65f, 2.83f, 0f);
+            Debug.Log(other.transform.GetChild(0).transform.localPosition);
             other.transform.GetComponentInChildren<SpriteRenderer>().color = checkTakenColor;
 
             previousCheckPoint = other.gameObject;
-            //rengini deðiþtir veya pozisyonunu
+
         }
+        /*else if (other.CompareTag("enemy"))
+        {
+            if (canTakenDamage)
+            {
+                StartCoroutine(WaitForAttack());
+            }
+        }*/
 
     }
+
+    /*IEnumerator WaitForAttack()
+    {
+        canTakenDamage = false;
+        gameManager.health -= 1;
+        yield return new WaitForSeconds(1f);
+        canTakenDamage = true;
+    }*/
 }

@@ -33,7 +33,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("checkpoint"))
+        /*if (other.CompareTag("checkpoint"))
         {
             current_CheckPoint = other.gameObject.transform.position;
 
@@ -47,10 +47,10 @@ public class PlayerHealth : MonoBehaviour
             other.transform.GetComponentInChildren<SpriteRenderer>().color = checkTakenColor;
 
             previousCheckPoint = other.gameObject;
-        }
-        else if (other.CompareTag("enemy"))
+        }*/
+        if (other.CompareTag("enemy"))
         {
-            gameManager.health -= 1;
+            //gameManager.health -= 1;
         }
     }
 }

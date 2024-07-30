@@ -82,6 +82,13 @@ public class Enemy : MonoBehaviour
             transform.position = new Vector3(transform.position.x, hit.point.y, transform.position.z);
         }
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("stone"))
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void SetNewTargetPoint()
     {

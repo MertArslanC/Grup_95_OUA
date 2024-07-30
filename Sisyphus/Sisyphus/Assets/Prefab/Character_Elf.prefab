@@ -1448,7 +1448,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.2771668, y: 0, z: -1.204}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1923836202010263180}
@@ -1640,12 +1640,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abbf9c2c516e7564eb4d2e3dc86f07c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fraction: 1
-  jumpPower: 3.6
-  gravity: 9.8
+  fraction: 0.2
+  jumpPower: 11
+  gravity: 20
+  jumpControl: 0
   stonePrefab: {fileID: 9080293144547686210, guid: e6bcab47b443f5b41b1c595cfaf81a5a, type: 3}
   stoneSpawnPos: {fileID: 3152395173724403841}
-  stoneThrowPower: 4
+  stoneThrowPower: 8
   stoneInHand: {fileID: 1850615868066016794}
   mouseSensivity: 10
 --- !u!65 &411511691084834641

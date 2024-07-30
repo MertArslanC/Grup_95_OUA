@@ -48,8 +48,7 @@ public class RuntimeMovement : MonoBehaviour
         _input.backwalkAction.canceled += OnBackwalkCanceled;
         _input.attackAction.performed += OnAttack;
 
-
-        Cursor.lockState = CursorLockMode.None;
+        Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = false;
         startedMousePos = Input.mousePosition.x;
 
@@ -113,7 +112,7 @@ public class RuntimeMovement : MonoBehaviour
         float speedblend = movement.magnitude;
         _animator.SetFloat("speedblend", speedblend);
 
-        Debug.Log(_controller.velocity.x + " " + _controller.velocity.z);
+        //Debug.Log(_controller.velocity.x + " " + _controller.velocity.z);
         _animator.SetBool("isRolling", isRolling);
         _animator.SetBool("isBackwalking", isBackwalking);
 

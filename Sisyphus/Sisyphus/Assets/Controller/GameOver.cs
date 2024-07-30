@@ -16,7 +16,6 @@ public class GameOver : MonoBehaviour
         if (other.gameObject.CompareTag("enemy"))
         {
             manager.health -= 1;
-            Debug.Log("Çalýþýyor");
         }
     }
 }

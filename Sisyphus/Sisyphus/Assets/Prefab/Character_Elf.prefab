@@ -1431,6 +1431,7 @@ GameObject:
   - component: {fileID: 1089691223219162976}
   - component: {fileID: 7754100751967780403}
   - component: {fileID: 8982850705711694373}
+  - component: {fileID: 4282120537843367471}
   m_Layer: 0
   m_Name: Character_Elf
   m_TagString: Player
@@ -1949,6 +1950,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4282120537843367471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4818943399647918732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a5a409173b3409448456052287a6785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  current_CheckPoint: {x: 0, y: 0, z: 0}
+  voidYPos: -15
+  checkTakenColor: {r: 0.013794942, g: 0.5849056, b: 0.037526995, a: 0.99215686}
+  checkNotTakenColor: {r: 0.3679245, g: 0.03297436, b: 0.2503981, a: 0}
 --- !u!1 &4859748478626597994
 GameObject:
   m_ObjectHideFlags: 0

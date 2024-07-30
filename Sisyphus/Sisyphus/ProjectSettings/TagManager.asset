@@ -12,6 +12,7 @@ TagManager:
   - void
   - checkpoint
   - stone
+  - fire
   layers:
   - Default
   - TransparentFX

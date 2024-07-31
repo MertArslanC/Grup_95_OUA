@@ -12,8 +12,8 @@ TagManager:
   - void
   - checkpoint
   - stone
-  - fire
   - trap
+  - MovingPlatform
   layers:
   - Default
   - TransparentFX

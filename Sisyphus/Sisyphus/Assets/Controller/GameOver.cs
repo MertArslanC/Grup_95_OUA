@@ -13,7 +13,7 @@ public class GameOver : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("enemy") || other.gameObject.CompareTag("fire"))
+        if (other.gameObject.CompareTag("enemy") || other.gameObject.CompareTag("trap"))
         {
             manager.health -= 1;
         }

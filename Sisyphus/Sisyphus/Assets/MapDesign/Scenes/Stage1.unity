@@ -3423,6 +3423,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 913841749}
+    - target: {fileID: 5201897328728763144, guid: a5c630fa06b09de4787372e8aa74261e, type: 3}
+      propertyPath: counttime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5201897328728763144, guid: a5c630fa06b09de4787372e8aa74261e, type: 3}
+      propertyPath: gameOverPanel
+      value: 
+      objectReference: {fileID: 1523400489}
     - target: {fileID: 7989598379322129179, guid: a5c630fa06b09de4787372e8aa74261e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

@@ -52,8 +52,6 @@ public class MovingPlatform : MonoBehaviour
     /*
     private void OnTriggerEnter(Collider other)
     {
-        
-        // Eðer çarpan nesne karakterse, platforma çocuk olarak ekle
         if (other.CompareTag("Player"))
         {
             other.transform.SetParent(transform);
@@ -62,7 +60,6 @@ public class MovingPlatform : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        // Eðer karakter platformdan ayrýlýrsa, karakterin parent'ýný sýfýrla
         if (other.CompareTag("Player"))
         {
             other.transform.SetParent(null);

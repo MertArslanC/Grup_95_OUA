@@ -14,7 +14,6 @@ public class FallenFromPlatform : MonoBehaviour
 
     public Color checkTakenColor, checkNotTakenColor;
 
-    bool canTakenDamage=true;
     private void Start()
     {
         characterController = gameObject.GetComponent<CharacterController>();
@@ -49,7 +48,6 @@ public class FallenFromPlatform : MonoBehaviour
                 previousCheckPoint.transform.GetComponentInChildren<SpriteRenderer>().color = checkNotTakenColor;
             }
             other.transform.GetChild(0).transform.localPosition = new Vector3(1.65f, 2.83f, 0f);
-            Debug.Log(other.transform.GetChild(0).transform.localPosition);
             other.transform.GetComponentInChildren<SpriteRenderer>().color = checkTakenColor;
 
             previousCheckPoint = other.gameObject;

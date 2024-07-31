@@ -22,13 +22,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Update()
     {
-        if(gameObject.transform.position.y <= voidYPos)
-        {
-            characterController.enabled = false;
-            gameObject.transform.position = current_CheckPoint;
-            characterController.enabled = true;
-            gameManager.health -= 1;
-        }
+
     }
 
     private void OnTriggerEnter(Collider other)

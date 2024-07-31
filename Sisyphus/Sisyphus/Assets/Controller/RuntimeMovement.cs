@@ -22,7 +22,6 @@ public class RuntimeMovement : MonoBehaviour
     private bool isGrounded;
     public float gravity;
     private float verticalVelocity;
-    public int jumpControl;
 
     [Header("Stone Attack")]
     [SerializeField] GameObject stonePrefab;
@@ -86,12 +85,10 @@ public class RuntimeMovement : MonoBehaviour
         if (isGrounded && yVelocity < 0)
         {
             yVelocity = -9.8f;
-            jumpControl = 1;
         }
 
         if (!isGrounded)
         {
-            jumpControl = 0;
             yVelocity -= gravity * Time.deltaTime;
         }
 
@@ -119,7 +116,7 @@ public class RuntimeMovement : MonoBehaviour
     }
     private void OnJump(InputAction.CallbackContext context)
     {
-        if (jumpControl == 1)
+        if (isGrounded)
         {
             yVelocity = jumpPower;
             _animator.SetTrigger("jump");

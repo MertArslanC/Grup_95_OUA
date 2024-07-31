@@ -1244,7 +1244,6 @@ GameObject:
   - component: {fileID: 8329679753613333042}
   - component: {fileID: 8517556292350814644}
   - component: {fileID: 6045720724783865339}
-  - component: {fileID: 7392312632025250627}
   m_Layer: 0
   m_Name: Character
   m_TagString: Player
@@ -1457,7 +1456,6 @@ MonoBehaviour:
   fraction: 0.2
   jumpPower: 11
   gravity: 20
-  jumpControl: 0
   stonePrefab: {fileID: 9080293144547686210, guid: e6bcab47b443f5b41b1c595cfaf81a5a, type: 3}
   stoneSpawnPos: {fileID: 65363575213035243}
   stoneThrowPower: 8
@@ -1649,6 +1647,8 @@ MonoBehaviour:
   prize2: {fileID: 0}
   mark1: {fileID: 0}
   mark2: {fileID: 0}
+  prizeheart: {fileID: 0}
+  _gamemanager: {fileID: 0}
   countdown: {fileID: 0}
 --- !u!114 &8517556292350814644
 MonoBehaviour:
@@ -1763,23 +1763,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &7392312632025250627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4353138498078564118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a5a409173b3409448456052287a6785, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
-  current_CheckPoint: {x: 0, y: 0, z: 0}
-  voidYPos: -15
-  checkTakenColor: {r: 0.013794942, g: 0.5849056, b: 0.037526995, a: 0.99215686}
-  checkNotTakenColor: {r: 0.3679245, g: 0.03297436, b: 0.2503981, a: 0}
 --- !u!1 &4427590977547535766
 GameObject:
   m_ObjectHideFlags: 0

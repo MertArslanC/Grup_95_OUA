@@ -6,14 +6,15 @@ using UnityEngine.InputSystem;
 public class Prize : MonoBehaviour
 {
     private Movement movement;
-    [SerializeField] GameObject prize1, prize2, mark1, mark2;
+    private GameManager manager;
+    [SerializeField] GameObject prize1, prize2, mark1, mark2, prizeheart, _gamemanager;
     [SerializeField] Countdown countdown;
     private AudioSource prizesound;
     private void Start()
     {
         movement= GetComponent<Movement>();
         prizesound = GetComponents<AudioSource>()[1];
-
+        manager= _gamemanager.GetComponent<GameManager>();
         prize1.gameObject.SetActive(false);
         prize2.gameObject.SetActive(false);
       
@@ -68,6 +69,13 @@ public class Prize : MonoBehaviour
             prize2.gameObject.SetActive(true);
         }
 
-        
+        else if (other.gameObject.CompareTag("heartprize"))
+        {
+            prizesound.Play();
+            Destroy(prizeheart);            
+            manager.health = manager.health>=3?manager.health:manager.health+1;
+
+        }
+
     }
 }

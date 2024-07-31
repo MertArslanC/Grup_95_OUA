@@ -14,6 +14,7 @@ TagManager:
   - stone
   - trap
   - MovingPlatform
+  - heartprize
   layers:
   - Default
   - TransparentFX

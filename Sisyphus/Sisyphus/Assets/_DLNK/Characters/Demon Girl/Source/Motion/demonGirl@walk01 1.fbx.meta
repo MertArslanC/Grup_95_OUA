@@ -1,365 +1,14 @@
 fileFormatVersion: 2
-guid: 766b7b41515da794ba4c95ca8ccbbe81
+guid: 71840e6599386c345a54568b0508328b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable:
   - first:
-      1: 100000
-    second: DemonGirl
-  - first:
-      1: 100002
-    second: //RootNode
-  - first:
-      1: 100004
-    second: DemonGirlHead
-  - first:
-      1: 100006
-    second: DemonGirlLCalf
-  - first:
-      1: 100008
-    second: DemonGirlLCollarbone
-  - first:
-      1: 100010
-    second: DemonGirlLDigit11
-  - first:
-      1: 100012
-    second: DemonGirlLDigit12
-  - first:
-      1: 100014
-    second: DemonGirlLDigit13
-  - first:
-      1: 100016
-    second: DemonGirlLDigit21
-  - first:
-      1: 100018
-    second: DemonGirlLDigit22
-  - first:
-      1: 100020
-    second: DemonGirlLDigit23
-  - first:
-      1: 100022
-    second: DemonGirlLDigit31
-  - first:
-      1: 100024
-    second: DemonGirlLDigit32
-  - first:
-      1: 100026
-    second: DemonGirlLDigit33
-  - first:
-      1: 100028
-    second: DemonGirlLDigit41
-  - first:
-      1: 100030
-    second: DemonGirlLDigit42
-  - first:
-      1: 100032
-    second: DemonGirlLDigit43
-  - first:
-      1: 100034
-    second: DemonGirlLFoot
-  - first:
-      1: 100036
-    second: DemonGirlLForearm
-  - first:
-      1: 100038
-    second: DemonGirlLPalm
-  - first:
-      1: 100040
-    second: DemonGirlLPlatform
-  - first:
-      1: 100042
-    second: DemonGirlLThigh
-  - first:
-      1: 100044
-    second: DemonGirlLUpperarm
-  - first:
-      1: 100046
-    second: DemonGirlNeck1
-  - first:
-      1: 100048
-    second: DemonGirlNeck2
-  - first:
-      1: 100050
-    second: DemonGirlPelvis
-  - first:
-      1: 100052
-    second: DemonGirlRArmCollarbone
-  - first:
-      1: 100054
-    second: DemonGirlRArmDigit11
-  - first:
-      1: 100056
-    second: DemonGirlRArmDigit12
-  - first:
-      1: 100058
-    second: DemonGirlRArmDigit13
-  - first:
-      1: 100060
-    second: DemonGirlRArmDigit21
-  - first:
-      1: 100062
-    second: DemonGirlRArmDigit22
-  - first:
-      1: 100064
-    second: DemonGirlRArmDigit23
-  - first:
-      1: 100066
-    second: DemonGirlRArmDigit31
-  - first:
-      1: 100068
-    second: DemonGirlRArmDigit32
-  - first:
-      1: 100070
-    second: DemonGirlRArmDigit33
-  - first:
-      1: 100072
-    second: DemonGirlRArmDigit41
-  - first:
-      1: 100074
-    second: DemonGirlRArmDigit42
-  - first:
-      1: 100076
-    second: DemonGirlRArmDigit43
-  - first:
-      1: 100078
-    second: DemonGirlRArmForearm
-  - first:
-      1: 100080
-    second: DemonGirlRArmPalm
-  - first:
-      1: 100082
-    second: DemonGirlRArmUpperarm
-  - first:
-      1: 100084
-    second: DemonGirlRibcage
-  - first:
-      1: 100086
-    second: DemonGirlRLegCalf
-  - first:
-      1: 100088
-    second: DemonGirlRLegFoot
-  - first:
-      1: 100090
-    second: DemonGirlRLegPlatform
-  - first:
-      1: 100092
-    second: DemonGirlRLegThigh
-  - first:
-      1: 100094
-    second: DemonGirlSpine1
-  - first:
-      1: 100096
-    second: DemonGirlSpine2
-  - first:
-      1: 100098
-    second: DemonGirlSpine3
-  - first:
-      1: 100100
-    second: DemonGirlSpine4
-  - first:
-      1: 100102
-    second: DemonGirlTail1
-  - first:
-      1: 100104
-    second: DemonGirlTail1 1
-  - first:
-      1: 100106
-    second: DemonGirlTail2
-  - first:
-      1: 100108
-    second: DemonGirlTail2 1
-  - first:
-      1: 100110
-    second: DemonGirlTail3
-  - first:
-      1: 100112
-    second: DemonGirlTail4
-  - first:
-      1: 100114
-    second: DemonGirlTail5
-  - first:
-      4: 400000
-    second: DemonGirl
-  - first:
-      4: 400002
-    second: //RootNode
-  - first:
-      4: 400004
-    second: DemonGirlHead
-  - first:
-      4: 400006
-    second: DemonGirlLCalf
-  - first:
-      4: 400008
-    second: DemonGirlLCollarbone
-  - first:
-      4: 400010
-    second: DemonGirlLDigit11
-  - first:
-      4: 400012
-    second: DemonGirlLDigit12
-  - first:
-      4: 400014
-    second: DemonGirlLDigit13
-  - first:
-      4: 400016
-    second: DemonGirlLDigit21
-  - first:
-      4: 400018
-    second: DemonGirlLDigit22
-  - first:
-      4: 400020
-    second: DemonGirlLDigit23
-  - first:
-      4: 400022
-    second: DemonGirlLDigit31
-  - first:
-      4: 400024
-    second: DemonGirlLDigit32
-  - first:
-      4: 400026
-    second: DemonGirlLDigit33
-  - first:
-      4: 400028
-    second: DemonGirlLDigit41
-  - first:
-      4: 400030
-    second: DemonGirlLDigit42
-  - first:
-      4: 400032
-    second: DemonGirlLDigit43
-  - first:
-      4: 400034
-    second: DemonGirlLFoot
-  - first:
-      4: 400036
-    second: DemonGirlLForearm
-  - first:
-      4: 400038
-    second: DemonGirlLPalm
-  - first:
-      4: 400040
-    second: DemonGirlLPlatform
-  - first:
-      4: 400042
-    second: DemonGirlLThigh
-  - first:
-      4: 400044
-    second: DemonGirlLUpperarm
-  - first:
-      4: 400046
-    second: DemonGirlNeck1
-  - first:
-      4: 400048
-    second: DemonGirlNeck2
-  - first:
-      4: 400050
-    second: DemonGirlPelvis
-  - first:
-      4: 400052
-    second: DemonGirlRArmCollarbone
-  - first:
-      4: 400054
-    second: DemonGirlRArmDigit11
-  - first:
-      4: 400056
-    second: DemonGirlRArmDigit12
-  - first:
-      4: 400058
-    second: DemonGirlRArmDigit13
-  - first:
-      4: 400060
-    second: DemonGirlRArmDigit21
-  - first:
-      4: 400062
-    second: DemonGirlRArmDigit22
-  - first:
-      4: 400064
-    second: DemonGirlRArmDigit23
-  - first:
-      4: 400066
-    second: DemonGirlRArmDigit31
-  - first:
-      4: 400068
-    second: DemonGirlRArmDigit32
-  - first:
-      4: 400070
-    second: DemonGirlRArmDigit33
-  - first:
-      4: 400072
-    second: DemonGirlRArmDigit41
-  - first:
-      4: 400074
-    second: DemonGirlRArmDigit42
-  - first:
-      4: 400076
-    second: DemonGirlRArmDigit43
-  - first:
-      4: 400078
-    second: DemonGirlRArmForearm
-  - first:
-      4: 400080
-    second: DemonGirlRArmPalm
-  - first:
-      4: 400082
-    second: DemonGirlRArmUpperarm
-  - first:
-      4: 400084
-    second: DemonGirlRibcage
-  - first:
-      4: 400086
-    second: DemonGirlRLegCalf
-  - first:
-      4: 400088
-    second: DemonGirlRLegFoot
-  - first:
-      4: 400090
-    second: DemonGirlRLegPlatform
-  - first:
-      4: 400092
-    second: DemonGirlRLegThigh
-  - first:
-      4: 400094
-    second: DemonGirlSpine1
-  - first:
-      4: 400096
-    second: DemonGirlSpine2
-  - first:
-      4: 400098
-    second: DemonGirlSpine3
-  - first:
-      4: 400100
-    second: DemonGirlSpine4
-  - first:
-      4: 400102
-    second: DemonGirlTail1
-  - first:
-      4: 400104
-    second: DemonGirlTail1 1
-  - first:
-      4: 400106
-    second: DemonGirlTail2
-  - first:
-      4: 400108
-    second: DemonGirlTail2 1
-  - first:
-      4: 400110
-    second: DemonGirlTail3
-  - first:
-      4: 400112
-    second: DemonGirlTail4
-  - first:
-      4: 400114
-    second: DemonGirlTail5
-  - first:
-      74: 7400000
-    second: idle01
-  - first:
-      95: 9500000
-    second: //RootNode
+      74: 1827226128182048838
+    second: walk01
   externalObjects: {}
   materials:
-    materialImportMode: 1
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -373,34 +22,32 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Inbetween bone
       rotation in copied configuration does not match rotation in animation file:\n\t'DemonGirlSpine4'
-      : rotation error = 12.188661 deg\n\t'DemonGirlRibcage' : rotation error = 10.789341
-      deg\n\t'DemonGirlNeck2' : rotation error = 21.111549 deg\n"
+      : rotation error = 5.243659 deg\n\t'DemonGirlRibcage' : rotation error = 1.142670
+      deg\n\t'DemonGirlNeck2' : rotation error = 11.066521 deg\n"
     animationImportErrors: 
     animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
       might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'DemonGirlLCalf' has translation animation
-      that will be discarded.\n\t'DemonGirlSpine4' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DemonGirlRibcage' is
-      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DemonGirlNeck2'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
-    animationRetargetingWarnings: "\nRetargeting quality report for clip 'Take 001':\n\tLeftLowerLeg
-      average position error 0.3 mm and maximum position error 2.2 mm at time 0:10
-      (8.0%) Frame 10\n\tLeftFoot average position error 0.2 mm and maximum position
-      error 2.3 mm at time 0: 6 (4.8%) Frame 6\n\tLeftUpperArm average position error
-      33.1 mm and maximum position error 38.9 mm at time 3:15 (84.0%) Frame 105\n\tLeftLowerArm
-      average position error 30.4 mm and maximum position error 39.9 mm at time 3:
-      6 (76.8%) Frame 96\n\tLeftHand average position error 30.3 mm and maximum position
-      error 38.8 mm at time 3:12 (81.6%) Frame 102\n\tRightUpperArm average position
-      error 30.4 mm and maximum position error 37.4 mm at time 3:15 (84.0%) Frame
-      105\n\tRightLowerArm average position error 15.6 mm and maximum position error
-      20.4 mm at time 4: 5 (100.0%) Frame 125\n\tRightHand average position error
-      5.4 mm and maximum position error 17.3 mm at time 4: 5 (100.0%) Frame 125\n\tHead
-      average position error 12.6 mm and maximum position error 24.2 mm at time 0:15
-      (12.0%) Frame 15\n"
-    animationDoRetargetingWarnings: 1
+      to improve retargeting quality.\n\t'DemonGirlSpine4' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'DemonGirlRibcage'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DemonGirlLDigit13'
+      has scale animation that will be discarded.\n\t'DemonGirlLDigit22' has scale
+      animation that will be discarded.\n\t'DemonGirlLDigit23' has scale animation
+      that will be discarded.\n\t'DemonGirlLDigit32' has scale animation that will
+      be discarded.\n\t'DemonGirlLDigit33' has scale animation that will be discarded.\n\t'DemonGirlLDigit42'
+      has scale animation that will be discarded.\n\t'DemonGirlLDigit43' has scale
+      animation that will be discarded.\n\t'DemonGirlNeck2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'DemonGirlRArmDigit13'
+      has scale animation that will be discarded.\n\t'DemonGirlRArmDigit22' has scale
+      animation that will be discarded.\n\t'DemonGirlRArmDigit23' has scale animation
+      that will be discarded.\n\t'DemonGirlRArmDigit32' has scale animation that
+      will be discarded.\n\t'DemonGirlRArmDigit33' has scale animation that will
+      be discarded.\n\t'DemonGirlRArmDigit42' has scale animation that will be discarded.\n\t'DemonGirlRArmDigit43'
+      has scale animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 0
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -409,11 +56,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: idle01
+      name: walk01
       takeName: Take 001
       internalID: 0
       firstFrame: 0
-      lastFrame: 125
+      lastFrame: 50
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -433,11 +80,132 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask: []
-      maskType: 3
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DemonGirl
+        weight: 0
+      - path: DemonGirlLPlatform
+        weight: 0
+      - path: DemonGirlPelvis
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlLThigh
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlLThigh/DemonGirlLCalf
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlLThigh/DemonGirlLCalf/DemonGirlLFoot
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlRLegThigh
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlRLegThigh/DemonGirlRLegCalf
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlRLegThigh/DemonGirlRLegCalf/DemonGirlRLegFoot
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlLCollarbone
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlLCollarbone/DemonGirlLUpperarm
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlLCollarbone/DemonGirlLUpperarm/DemonGirlLForearm
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlLCollarbone/DemonGirlLUpperarm/DemonGirlLForearm/DemonGirlLPalm
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlLCollarbone/DemonGirlLUpperarm/DemonGirlLForearm/DemonGirlLPalm/DemonGirlLDigit11
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlLCollarbone/DemonGirlLUpperarm/DemonGirlLForearm/DemonGirlLPalm/DemonGirlLDigit11/DemonGirlLDigit12
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlLCollarbone/DemonGirlLUpperarm/DemonGirlLForearm/DemonGirlLPalm/DemonGirlLDigit11/DemonGirlLDigit12/DemonGirlLDigit13
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlLCollarbone/DemonGirlLUpperarm/DemonGirlLForearm/DemonGirlLPalm/DemonGirlLDigit21
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlLCollarbone/DemonGirlLUpperarm/DemonGirlLForearm/DemonGirlLPalm/DemonGirlLDigit21/DemonGirlLDigit22
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlLCollarbone/DemonGirlLUpperarm/DemonGirlLForearm/DemonGirlLPalm/DemonGirlLDigit21/DemonGirlLDigit22/DemonGirlLDigit23
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlLCollarbone/DemonGirlLUpperarm/DemonGirlLForearm/DemonGirlLPalm/DemonGirlLDigit31
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlLCollarbone/DemonGirlLUpperarm/DemonGirlLForearm/DemonGirlLPalm/DemonGirlLDigit31/DemonGirlLDigit32
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlLCollarbone/DemonGirlLUpperarm/DemonGirlLForearm/DemonGirlLPalm/DemonGirlLDigit31/DemonGirlLDigit32/DemonGirlLDigit33
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlLCollarbone/DemonGirlLUpperarm/DemonGirlLForearm/DemonGirlLPalm/DemonGirlLDigit41
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlLCollarbone/DemonGirlLUpperarm/DemonGirlLForearm/DemonGirlLPalm/DemonGirlLDigit41/DemonGirlLDigit42
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlLCollarbone/DemonGirlLUpperarm/DemonGirlLForearm/DemonGirlLPalm/DemonGirlLDigit41/DemonGirlLDigit42/DemonGirlLDigit43
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlNeck1
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlNeck1/DemonGirlNeck2
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlNeck1/DemonGirlNeck2/DemonGirlHead
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlNeck1/DemonGirlNeck2/DemonGirlHead/DemonGirlTail1
+          1
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlNeck1/DemonGirlNeck2/DemonGirlHead/DemonGirlTail1
+          1/DemonGirlTail2 1
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlNeck1/DemonGirlNeck2/DemonGirlHead/DemonGirlTail1
+          1/DemonGirlTail2 1/DemonGirlTail3
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlNeck1/DemonGirlNeck2/DemonGirlHead/DemonGirlTail1
+          1/DemonGirlTail2 1/DemonGirlTail3/DemonGirlTail4
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlNeck1/DemonGirlNeck2/DemonGirlHead/DemonGirlTail1
+          1/DemonGirlTail2 1/DemonGirlTail3/DemonGirlTail4/DemonGirlTail5
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlRArmCollarbone
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlRArmCollarbone/DemonGirlRArmUpperarm
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlRArmCollarbone/DemonGirlRArmUpperarm/DemonGirlRArmForearm
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlRArmCollarbone/DemonGirlRArmUpperarm/DemonGirlRArmForearm/DemonGirlRArmPalm
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlRArmCollarbone/DemonGirlRArmUpperarm/DemonGirlRArmForearm/DemonGirlRArmPalm/DemonGirlRArmDigit11
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlRArmCollarbone/DemonGirlRArmUpperarm/DemonGirlRArmForearm/DemonGirlRArmPalm/DemonGirlRArmDigit11/DemonGirlRArmDigit12
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlRArmCollarbone/DemonGirlRArmUpperarm/DemonGirlRArmForearm/DemonGirlRArmPalm/DemonGirlRArmDigit11/DemonGirlRArmDigit12/DemonGirlRArmDigit13
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlRArmCollarbone/DemonGirlRArmUpperarm/DemonGirlRArmForearm/DemonGirlRArmPalm/DemonGirlRArmDigit21
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlRArmCollarbone/DemonGirlRArmUpperarm/DemonGirlRArmForearm/DemonGirlRArmPalm/DemonGirlRArmDigit21/DemonGirlRArmDigit22
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlRArmCollarbone/DemonGirlRArmUpperarm/DemonGirlRArmForearm/DemonGirlRArmPalm/DemonGirlRArmDigit21/DemonGirlRArmDigit22/DemonGirlRArmDigit23
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlRArmCollarbone/DemonGirlRArmUpperarm/DemonGirlRArmForearm/DemonGirlRArmPalm/DemonGirlRArmDigit31
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlRArmCollarbone/DemonGirlRArmUpperarm/DemonGirlRArmForearm/DemonGirlRArmPalm/DemonGirlRArmDigit31/DemonGirlRArmDigit32
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlRArmCollarbone/DemonGirlRArmUpperarm/DemonGirlRArmForearm/DemonGirlRArmPalm/DemonGirlRArmDigit31/DemonGirlRArmDigit32/DemonGirlRArmDigit33
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlRArmCollarbone/DemonGirlRArmUpperarm/DemonGirlRArmForearm/DemonGirlRArmPalm/DemonGirlRArmDigit41
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlRArmCollarbone/DemonGirlRArmUpperarm/DemonGirlRArmForearm/DemonGirlRArmPalm/DemonGirlRArmDigit41/DemonGirlRArmDigit42
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlSpine1/DemonGirlSpine2/DemonGirlSpine3/DemonGirlSpine4/DemonGirlRibcage/DemonGirlRArmCollarbone/DemonGirlRArmUpperarm/DemonGirlRArmForearm/DemonGirlRArmPalm/DemonGirlRArmDigit41/DemonGirlRArmDigit42/DemonGirlRArmDigit43
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlTail1
+        weight: 1
+      - path: DemonGirlPelvis/DemonGirlTail1/DemonGirlTail2
+        weight: 1
+      - path: DemonGirlRLegPlatform
+        weight: 0
+      maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 0.23
@@ -451,7 +219,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     nodeNameCollisionStrategy: 0
-    fileIdsGeneration: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -468,7 +236,7 @@ ModelImporter:
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
+    secondaryUVMarginMethod: 1
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
@@ -479,7 +247,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
@@ -1177,7 +945,7 @@ ModelImporter:
   animationType: 3
   humanoidOversampling: 1
   avatarSetup: 2
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 0
   remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0

@@ -21,7 +21,7 @@ public class MovingPlatform : MonoBehaviour
 
     private GameObject player;
     private CharacterController _controller;
-    
+
     public bool characterFollow;
     private void Start()
     {
@@ -37,38 +37,37 @@ public class MovingPlatform : MonoBehaviour
         switch (moveAxis)
         {
             case MoveAxis.X:
-                moveDirection = Vector3.right;
+                moveDirection = Vector3.right * forceSpeed;
                 break;
             case MoveAxis.Y:
-                moveDirection = Vector3.up;
+                moveDirection = Vector3.up * forceSpeed;
                 break;
             case MoveAxis.Z:
-                moveDirection = Vector3.forward;
+                moveDirection = Vector3.forward * forceSpeed;
                 break;
             default:
                 moveDirection = Vector3.zero;
                 break;
         }
-        moveDirection = Vector3.forward * forceSpeed;
         rb.velocity = moveDirection;
 
         if (timer == true)
         {
-            if(forceSpeed > 0)
+            if (forceSpeed > 0)
             {
                 forceSpeed = -speed;
-                timer=false;
+                timer = false;
             }
-            else if(forceSpeed < 0)
+            else if (forceSpeed < 0)
             {
                 forceSpeed = speed;
                 timer = false;
             }
         }
 
-        if(characterFollow)
+        if (characterFollow)
         {
-            _controller.Move(moveDirection*Time.deltaTime);
+            _controller.Move(moveDirection * Time.deltaTime);
         }
     }
 
@@ -97,7 +96,7 @@ public class MovingPlatform : MonoBehaviour
 
     private void OnCollisionStay(Collision collision)
     {
-        if(collision.gameObject.tag =="Player")
+        if (collision.gameObject.tag == "Player")
         {
 
             //player.transform.position = gameObject.transform.position + transform.up * ((player.transform.localScale.y / 2) + gameObject.transform.localScale.y / 2);

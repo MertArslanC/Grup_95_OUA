@@ -1,18 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MovingPlatform : MonoBehaviour
 {
+    public enum MoveAxis
+    {
+        X,
+        Y,
+        Z
+    }
+
     public Rigidbody rb;
     public float speed;
     public float forceSpeed;
 
     public bool timer;
+    public MoveAxis moveAxis = MoveAxis.X;
 
     private GameObject player;
     private CharacterController _controller;
-    public Vector3 moveDirection;
+    
     public bool characterFollow;
     private void Start()
     {
@@ -23,8 +32,26 @@ public class MovingPlatform : MonoBehaviour
     }
     private void Update()
     {
+
+        Vector3 moveDirection;
+        switch (moveAxis)
+        {
+            case MoveAxis.X:
+                moveDirection = Vector3.right;
+                break;
+            case MoveAxis.Y:
+                moveDirection = Vector3.up;
+                break;
+            case MoveAxis.Z:
+                moveDirection = Vector3.forward;
+                break;
+            default:
+                moveDirection = Vector3.zero;
+                break;
+        }
         moveDirection = Vector3.forward * forceSpeed;
         rb.velocity = moveDirection;
+
         if (timer == true)
         {
             if(forceSpeed > 0)

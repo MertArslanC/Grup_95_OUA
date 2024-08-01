@@ -10,13 +10,21 @@ public class MovingPlatform : MonoBehaviour
 
     public bool timer;
 
+    private GameObject player;
+    private CharacterController _controller;
+    public Vector3 moveDirection;
+    public bool characterFollow;
     private void Start()
     {
+        _controller = GameObject.FindAnyObjectByType<CharacterController>();
+        player = GameObject.FindGameObjectWithTag("Player");
         forceSpeed = speed;
+        characterFollow = false;
     }
     private void Update()
     {
-        rb.velocity = Vector3.forward * forceSpeed;
+        moveDirection = Vector3.forward * forceSpeed;
+        rb.velocity = moveDirection;
         if (timer == true)
         {
             if(forceSpeed > 0)
@@ -30,6 +38,11 @@ public class MovingPlatform : MonoBehaviour
                 timer = false;
             }
         }
+
+        if(characterFollow)
+        {
+            _controller.Move(moveDirection*Time.deltaTime);
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -38,14 +51,31 @@ public class MovingPlatform : MonoBehaviour
         {
             timer = true;
         }
+
     }
+    /*private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            characterFollow = true;
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            characterFollow = false;
+        }
+    }*/
 
     private void OnCollisionStay(Collision collision)
     {
         if(collision.gameObject.tag =="Player")
         {
-            Rigidbody rb=collision.gameObject.GetComponent<Rigidbody>();
-            rb.velocity = new Vector3(this.rb.velocity.x,rb.velocity.y,this.rb.velocity.z);
+
+            //player.transform.position = gameObject.transform.position + transform.up * ((player.transform.localScale.y / 2) + gameObject.transform.localScale.y / 2);
+            //Rigidbody rb=collision.gameObject.GetComponent<Rigidbody>();
+            //rb.velocity = new Vector3(this.rb.velocity.x,rb.velocity.y,this.rb.velocity.z);
         }
     }
 

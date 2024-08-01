@@ -172,6 +172,19 @@ public class RuntimeMovement : MonoBehaviour
     {
         stoneInHand.SetActive(true);
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "MovingPlatform")
+        {
+            other.gameObject.GetComponent<MovingPlatform>().characterFollow = true;
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "MovingPlatform")
+        {
+            other.gameObject.GetComponent<MovingPlatform>().characterFollow = false;
+        }
+    }
 
-   
 }

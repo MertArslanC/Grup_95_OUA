@@ -15,6 +15,7 @@ TagManager:
   - trap
   - MovingPlatform
   - heartprize
+  - End
   layers:
   - Default
   - TransparentFX

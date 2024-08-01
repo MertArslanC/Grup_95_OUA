@@ -8,6 +8,7 @@ public class BossController : MonoBehaviour
 {
     private Animator _bossanimator;
     private NavMeshAgent navMeshAgent;
+    [SerializeField] ParticleSystem _particleSystem;
     [Header("Walk")]
     public float detectionRadius = 20f;
     public Transform player;
@@ -31,11 +32,11 @@ public class BossController : MonoBehaviour
         navMeshAgent = GetComponent<NavMeshAgent>();
         currentHealth = maxHealth;
         chr_currentHealth = chr_maxHealth;
+        StartCoroutine(effect());
     }
 
     void Update()
     {
-
         distanceToPlayer = Vector3.Distance(player.position, transform.position);
         healthSlider.value = currentHealth / maxHealth;
         chr_healthSlider.value = chr_currentHealth / chr_maxHealth;
@@ -67,6 +68,7 @@ public class BossController : MonoBehaviour
         else
         {
             navMeshAgent.ResetPath();
+            _particleSystem.Play();
             _bossanimator.SetTrigger("BossDead");
             _bossanimator.SetBool("BossisWalking", false);
             _bossanimator.SetBool("BossisAttacking", false);
@@ -85,7 +87,12 @@ public class BossController : MonoBehaviour
         }
 
     }
+    IEnumerator effect()
+    {
 
+        yield return new WaitForSeconds(1);
+        _particleSystem.Pause();
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("stone"))

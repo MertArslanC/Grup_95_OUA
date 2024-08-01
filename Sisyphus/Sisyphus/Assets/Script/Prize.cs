@@ -7,7 +7,7 @@ public class Prize : MonoBehaviour
 {
     private Movement movement;
     private GameManager manager;
-    [SerializeField] GameObject prize1, prize2, mark1, mark2, prizeheart, _gamemanager;
+    [SerializeField] GameObject prize1, prize2, mark1, mark2, prizeheart, _gamemanager, gameCanvas, endCanvas ;
     [SerializeField] Countdown countdown;
     private AudioSource prizesound;
     private void Start()
@@ -72,9 +72,14 @@ public class Prize : MonoBehaviour
         else if (other.gameObject.CompareTag("heartprize"))
         {
             prizesound.Play();
-            Destroy(prizeheart);            
-            manager.health = manager.health>=3?manager.health:manager.health+1;
+            Destroy(prizeheart);
+            manager.health = manager.health >= 3 ? manager.health : manager.health + 1;
 
+        }
+        else if (other.gameObject.CompareTag("End"))
+        { 
+            gameCanvas.gameObject.SetActive(false);
+            endCanvas.gameObject.SetActive(true);
         }
 
     }

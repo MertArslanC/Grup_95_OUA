@@ -17168,7 +17168,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7453117174487337460, guid: 326cdb3dcd2ff184693513624225216c, type: 3}
       propertyPath: m_SlopeLimit
-      value: 45
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 7503933399688526404, guid: 326cdb3dcd2ff184693513624225216c, type: 3}
       propertyPath: m_LocalPosition.x

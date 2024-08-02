@@ -13,6 +13,7 @@ public class NextLevel : MonoBehaviour
         {
             Time.timeScale = 0f;
             canvasNext.SetActive(true);
+            Cursor.visible = true;
         }
     }
     

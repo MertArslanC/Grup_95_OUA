@@ -7292,6 +7292,10 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8599620384061000967, guid: b11000e356467a94aa6b1ec64cd7ea53, type: 3}
+      propertyPath: endingCanvas
+      value: 
+      objectReference: {fileID: 1619866473}
+    - target: {fileID: 8599620384061000967, guid: b11000e356467a94aa6b1ec64cd7ea53, type: 3}
       propertyPath: healthSlider
       value: 
       objectReference: {fileID: 1743323899}
@@ -17172,11 +17176,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7503933399688526404, guid: 326cdb3dcd2ff184693513624225216c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 494.79
+      value: 493.444
       objectReference: {fileID: 0}
     - target: {fileID: 7503933399688526404, guid: 326cdb3dcd2ff184693513624225216c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 146.29
+      value: 146.15079
       objectReference: {fileID: 0}
     - target: {fileID: 7503933399688526404, guid: 326cdb3dcd2ff184693513624225216c, type: 3}
       propertyPath: m_LocalPosition.z

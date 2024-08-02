@@ -15,19 +15,17 @@ Takım Unity 95
 
 Sisyphus's Burden
 ## Oyun Açıklaması
-Sisyphus's Burden oyununda, oyuncular Sisyphus'un yeraltı dünyasındaki zorlu kaçışını yönlendirecekler. Kurnazlığı ve kararlılığıyla tanınan Sisyphus, labirent benzeri dar koridorlarda taş yuvarlayarak ilerlerken, düşman muhafızlarla ve çeşitli zorluklarla karşılaşacak. Oyun, her oynayışta rastgele oluşturulan haritalar, stratejik bulmacalar ve roguelike unsurlar içerir.
+Sisyphus's Burden oyununda, oyuncular Sisyphus'un yeraltı dünyasındaki zorlu kaçışını yönlendirecekler. Kurnazlığı ve kararlılığıyla tanınan Sisyphus, platformlarda ilerlerken düşman muhafızlarla ve çeşitli zorluklarla karşılaşacak. Oyun, farklı düşmanlar ve tuzaklar ile bölümleri zorlaştıran unsurlar içerir.
 ## Oyun Özellikleri
 - Ana Karakter Hareketi: Sisyphus'un hareketlerini kontrol etme
 - Düşman Karakterler: Sisyphus'u takip eden ve engelleyen muhafızlar.
-- Labirent Oluşturma: Dar koridorlar ve karmaşık yollar içeren labirentler.
+- AI ile Boss Fight: elirli aralıklarla Sisyphus'un karşısına çıkan güçlü düşman karakterlerinin dinamik davranışlar sergilemesi. 
 - NPC Karşılaşmaları: Sisyphus'a yardım eden veya zorluk çıkaran karakterler.
 - Sonsuz Döngü: Sisyphus her öldüğünde veya başarısız olduğunda başlangıç noktasına geri döner.
-- Boss Fight: Belirli aralıklarla Sisyphus'un karşısına çıkan güçlü düşmanlar.
-- Roguelike Unsurlar: Rastgele oluşturulan haritalar ve düşmanlar.
 ## Hedef Kitle
 - 12 - 50 yaş arası oyuncular
 - Mitolojik hikayelere ilgi duyanlar
-- Roguelike oyun severler
+- Platform oyunu sevenler
 ## Product Backlog URL
 [Unity Team 95 Miro Backlog Board](https://miro.com/app/board/uXjVK1afTqQ=/)
 ***

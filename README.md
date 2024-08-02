@@ -121,7 +121,7 @@ Kodlama için Kübra, İrem ve Mehmet görevlendirildi. Tasarım için Mert ve K
 ![Urun 9](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/oyunSs9.png)
 ![Urun 10](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/oyunSs10.png)
 
-[Final videosu: ]()
+[Final videosu: ](https://www.youtube.com/watch?v=p4YlDRgKY1U)
 
 **Sprint Review**:
 - Karakter ve düşmanlar tamamlandı.
@@ -135,3 +135,6 @@ Kodlama için Kübra, İrem ve Mehmet görevlendirildi. Tasarım için Mert ve K
 - Sprint 3 için belirlenen 160 puanlık backlog puanı tamamlandı.
 - Bootcamp sürecinde gösterilen özveri, dayanışma ve her bir üyenin motivasyon ve kararlılığı için takım üyeleri birbirini tebrik etti.
 ****
+
+**Diğer Notlar:**
+- Oyun sahnelerimiz "Assets" içindeki "SISYPHUS'S BURDEN" adlı dosyanın içindedir.

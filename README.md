@@ -36,7 +36,7 @@ Sisyphus's Burden oyununda, oyuncular Sisyphus'un yeraltı dünyasındaki zorlu 
   User Story'ler product backlog'ların içine yazılmıştır.
 - **Sprint içinde tamamlanması tahmin edilen puan:** 80 Puan
 - **Puan tamamlama mantığı:**
-  Toplamda proje boyunca tamamlanması gereken backlog puanı 235'dir. 3 sprint'e bölündüğünde ilk sprint için bitirilmesi istenilen puan en az 80 olarak belirlendi.
+  Toplamda proje boyunca tamamlanması gereken backlog puanı 255'dir. 3 sprint'e bölündüğünde ilk sprint için bitirilmesi istenilen puan en az 80 olarak belirlendi.
 - **Daily Scrum**: Daily Scrum toplantılarının Whatsapp ve Discord üzerinden yapılmasına karar verilmiştir.
 [Sprint 1 Daily Scrum Ekran Görüntüleri](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint1/DailyScrumToplant%C4%B1lar%C4%B1Sprint1%20.pdf)
 
@@ -99,3 +99,33 @@ Kodlama için Kübra, İrem ve Mehmet görevlendirildi. Tasarım için Mert ve K
 - İkinci sprinte farklı haritaların tamamlanması, düşman saldırısı, UI tasarımları ve can mekaniği eklendi
 - Gelecek sprintlerde daha detaylı planlama ve zamanlama yapılmasına karar verildi.
  ****
+# Sprint 3
+- **Sprint içinde tamamlanması tahmin edilen puan:** 160 Puan
+- **Daily Scrum**: Daily Scrum toplantılarının Whatsapp ve Discord üzerinden yapılmaktadır. Whatsapp üzerinden ürün hakkında bilgilendirmeler ve toplantı planları yapılmıştır. Discord üzerinden oyunla ilgili kararlar alınmıştır ve oyunun genel durumuyla ilgili toplantılar planlanmıştır.
+[Sprint 3 Daily Scrum Ekran Görüntüleri](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/DailyScrumToplant%C4%B1lar%C4%B1Sprint3.pdf)
+
+- **Sprint board update**: Sprint board screenshotları: 
+![Backlog 1](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/Sprintboard1.png)
+![Backlog 2](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/Sprintboard2.png) 
+![Backlog 3](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/Sprintboard3.png) 
+![Backlog 4](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/Sprintboard4.png) 
+- **Ürün Durumu**:
+![Urun 1](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/oyunSs1.png)
+![Urun 2](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/oyunSs2.png)
+![Urun 3](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/oyunSs3.png)
+![Urun 4](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/oyunSs4.png)
+ 
+[Final videosu: ]()
+
+**Sprint Review**:
+- Karakter ve düşmanlar tamamlandı.
+- Çeşitli tuzaklar ve ödüller oluşturuldu.
+- Karakterin can mekaniği oluşturuldu. 
+- AI ile boss karakter oluşturuldu ve karakterle savaşması tamamlandı.
+- Haritalar tamamlandı.
+- Sprint Review katılımcıları: Mert Aslan, Mehmet Burak Meydancı, Kübra Altun, Keziban Topal, İrem Değerli.
+  
+**Sprint Retrospective:**
+- Sprint 3 için belirlenen 160 puanlık backlog puanı tamamlandı.
+- Bootcamp sürecinde gösterilen özveri, dayanışma ve her bir üyenin motivasyon ve kararlılığı için takım üyeleri birbirini tebrik etti.
+****

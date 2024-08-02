@@ -22,7 +22,7 @@ Sisyphus's Burden oyununda, oyuncular Sisyphus'un yeraltı dünyasındaki zorlu 
 - Labirent Oluşturma: Dar koridorlar ve karmaşık yollar içeren labirentler.
 - NPC Karşılaşmaları: Sisyphus'a yardım eden veya zorluk çıkaran karakterler.
 - Sonsuz Döngü: Sisyphus her öldüğünde veya başarısız olduğunda başlangıç noktasına geri döner.
-- Güçlenme ve Öğrenme: Her döngüde yeni yetenekler kazanarak ilerleme.
+- Boss Fight: Belirli aralıklarla Sisyphus'un karşısına çıkan güçlü düşmanlar.
 - Roguelike Unsurlar: Rastgele oluşturulan haritalar ve düşmanlar.
 ## Hedef Kitle
 - 12 - 50 yaş arası oyuncular

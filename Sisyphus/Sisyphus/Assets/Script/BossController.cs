@@ -9,7 +9,7 @@ public class BossController : MonoBehaviour
     private Animator _bossanimator;
     private NavMeshAgent navMeshAgent;
     [SerializeField] ParticleSystem _particleSystem;
-    [SerializeField] GameObject endingCanvas;
+    [SerializeField] GameObject endingCanvas, startCanvas;
     [Header("Walk")]
     public float detectionRadius = 20f;
     public Transform player;
@@ -68,6 +68,7 @@ public class BossController : MonoBehaviour
         }
         else
         {
+            startCanvas.SetActive(true);
             navMeshAgent.ResetPath();
             _particleSystem.Play();
             endingCanvas.gameObject.SetActive(false);

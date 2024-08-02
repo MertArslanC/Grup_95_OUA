@@ -102,14 +102,16 @@ Kodlama için Kübra, İrem ve Mehmet görevlendirildi. Tasarım için Mert ve K
 # Sprint 3
 - **Sprint içinde tamamlanması tahmin edilen puan:** 160 Puan
 - **Daily Scrum**: Daily Scrum toplantılarının Whatsapp ve Discord üzerinden yapılmaktadır. Whatsapp üzerinden ürün hakkında bilgilendirmeler ve toplantı planları yapılmıştır. Discord üzerinden oyunla ilgili kararlar alınmıştır ve oyunun genel durumuyla ilgili toplantılar planlanmıştır.
-[Sprint 3 Daily Scrum Ekran Görüntüleri](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/DailyScrumToplant%C4%B1lar%C4%B1Sprint3.pdf)
+[Sprint 3 Daily Scrum Ekran Görüntüleri](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/DailyScrumToplantilariSprint3.pdf)
 
-- **Sprint board update**: Sprint board screenshotları: 
+- **Sprint board update**: Sprint board screenshotları:
+   
 ![Backlog 1](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/Sprintboard1.png)
 ![Backlog 2](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/Sprintboard2.png) 
 ![Backlog 3](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/Sprintboard3.png) 
 ![Backlog 4](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/Sprintboard4.png) 
 - **Ürün Durumu**:
+  
 ![Urun 1](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/oyunSs1.png)
 ![Urun 2](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/oyunSs2.png)
 ![Urun 3](https://github.com/MertArslanC/Grup_95_OUA/blob/main/bootcampFiles/Sprint3/oyunSs3.png)

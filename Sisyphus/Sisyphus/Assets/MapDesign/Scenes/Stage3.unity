@@ -17170,6 +17170,10 @@ PrefabInstance:
       propertyPath: _gamemanager
       value: 
       objectReference: {fileID: 389358789}
+    - target: {fileID: 1923836202010263180, guid: 326cdb3dcd2ff184693513624225216c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.218
+      objectReference: {fileID: 0}
     - target: {fileID: 4818943399647918732, guid: 326cdb3dcd2ff184693513624225216c, type: 3}
       propertyPath: m_Name
       value: Character_Elf
@@ -26751,7 +26755,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1206226628833945838, guid: 4df7513868422254c9274490abc2cd1b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7071068
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 1206226628833945838, guid: 4df7513868422254c9274490abc2cd1b, type: 3}
       propertyPath: m_LocalRotation.z
@@ -26763,7 +26767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1206226628833945838, guid: 4df7513868422254c9274490abc2cd1b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 1206226628833945838, guid: 4df7513868422254c9274490abc2cd1b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
